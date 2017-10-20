@@ -4,6 +4,8 @@ import React, {
 import incrementCount from '../actions/app-actions'
 import CountWidget from '../components/CountWidget'
 
+
+//TODO use connect()
 class CountWidgetContainer extends React.Component {
   constructor(props) {
     super(props)
